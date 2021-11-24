@@ -130,14 +130,19 @@
         /* align-items: center; */
         /* height: 41px; */
     }
-    #image{
+    nav >a {
+        margin-left: 4%;
         height: 100px;
-        padding-left: 4%;
+        border-radius: 100px;
         position: relative;
         top: 45px;
         z-index: 5;
-    }
-
+        
+      }
+      #image{
+        height: 100px;
+        border-radius: 100px;
+      }
     .ul1{  
         display: flex;
         /* justify-content: space-between;  */
