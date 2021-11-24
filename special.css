@@ -134,13 +134,19 @@
         /* align-items: center; */
         /* height: 41px; */
     }
-    #image{
+    nav >a {
+        margin-left: 4%;
         height: 100px;
-        padding-left: 4%;
+        border-radius: 100px;
         position: relative;
         top: 45px;
         z-index: 5;
-    }
+        
+      }
+      #image{
+        height: 100px;
+        border-radius: 100px;
+      }
 
     .ul1{  
         display: flex;
@@ -305,7 +311,7 @@
     }
     #sec4::before{
         content: "";
-        background: url('/Image/bg4.jpg') no-repeat center center/cover;
+        background: url('/Image/bg4.jpg') no-repeat center center/cover fixed;
         width: 1348px;
         height: 113%;
         position: absolute;
